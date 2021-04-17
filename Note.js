@@ -16,7 +16,7 @@ export function Note({ item }) {
         </View>
     )
 };
-const width = Dimensions.get('window').width - 40
+const width = Dimensions.get('window').width - 40;
 
 const styles = StyleSheet.create({
     container: {

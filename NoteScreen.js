@@ -5,7 +5,7 @@ import colors from './app/misc/colors';
 import { RoundIconBtn } from './RoundIconBtn';
 import { SearchBar } from './SearchBar';
 import { NoteInputModal } from './NoteInputModal';
-import {Note} from './Note.js';
+import {Note} from './Note';
 
 
 
