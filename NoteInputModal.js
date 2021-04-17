@@ -4,10 +4,11 @@ import colors from './app/misc/colors';
 import { RoundIconBtn } from './RoundIconBtn';
 
 
-
+//visible property to display and hide the Modal component (true/false)
 export function NoteInputModal({ visible, onClose, onSubmit }) {
 
     //Methods to storage the title and description
+    //empty string as as defaul value
     const [title, setTitle] = useState('');
     const [desc, setDesc] = useState('');
 
@@ -37,7 +38,7 @@ export function NoteInputModal({ visible, onClose, onSubmit }) {
         setDesc('');
         onClose();
     }
-
+//onChangeText property to grab the value inside the TextInput to save the title and description
     return (
         <>
             <StatusBar hidden></StatusBar>
